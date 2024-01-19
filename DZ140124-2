@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карту Масти</title>
+    <style>
+        ul {
+            list-style: none; /* Убираем нумерацию */
+            padding: 0; /* Убираем внутренний отступ списка */
+            margin: 0; /* Убираем внешний отступ списка */
+            display: flex; /* Размещаем элементы в строку */
+        }
+        li {
+            margin-right: 20px; /* Опциональный отступ между элементами списка */
+            background-color: rgb(165, 173, 220); /* Цвет выделения текста */
+        }
+        .red-custom-span {
+            font-family: Arial;
+            font-size: 50px;
+            color: #ff0000;
+            /* Дополнительные стили, если необходимо */
+        }
+        .black-custom-span {
+            font-family: Arial;
+            font-size: 50px;
+            color: #000000;
+            /* Дополнительные стили, если необходимо */
+        }
+        div {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="black-custom-span">2 &#9827;</li>
+            <li class="red-custom-span">9 &#9829;</li>
+            <li class="red-custom-span">6 &#9829;</li>
+            <li class="red-custom-span">A &#9830;</li>
+            <li class="black-custom-span">Q &#9824;</li>
+            <li class="black-custom-span">J &#9827;</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li class="black-custom-span">3 &#9829;</li>
+            <li class="red-custom-span">A &#9827;</li>
+            <li class="red-custom-span">10 &#9827;</li>
+            <li class="red-custom-span">K &#9830;</li>
+            <li class="black-custom-span">8 &#9824;</li>
+            <li class="black-custom-span">3 &#9829;</li>
+        </ul>
+    </div>
+
+</body>
+</html>
